@@ -33,4 +33,4 @@ Tests:OneTimeTearDown\
 FixtureSetup:OneTimeTearDown\
 RootFixtureSetup:OneTimeTearDown\
 NUnit Adapter 4.2.0.0: Test execution complete\
-========== Test run finished: 6 Tests (4 Passed, 2 Failed, 0 Skipped) run in 285 ms ==========\
+========== Test run finished: 6 Tests (4 Passed, 2 Failed, 0 Skipped) run in 285 ms ==========
