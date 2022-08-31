@@ -28,7 +28,7 @@ namespace TestProject1
             TestContext.Progress.WriteLine("x IsPrime_InputIs1_ReturnFalse");
             var result = _primeService.IsPrime(1);
 
-            Assert.IsFalse(result, "1 should not be prime");
+            Assert.That(result, Is.False, "1 should not be prime");
         }
 
         [TestCase(-1)]
@@ -39,7 +39,7 @@ namespace TestProject1
             TestContext.Progress.WriteLine("x IsPrime_ValuesLessThan2_ReturnFalse");
             var result = _primeService.IsPrime(value);
 
-            Assert.IsFalse(result, $"{value} should not be prime");
+            Assert.That(result, Is.False, $"{value} should not be prime");
         }
     }
 }
